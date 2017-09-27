@@ -1,7 +1,10 @@
 package fr.uni.institute.library.business.inventory;
 
-public interface InventoryVisitor {
 
+
+
+public interface InventoryVisitor {
+	
 	public void visitBook(Book aBook) throws InventoryException ;
 	public void visitCategory(Category aCategory) throws InventoryException ;
 	public void visitAudioRecord(AudioRecord anAudioRecord) throws InventoryException ;
