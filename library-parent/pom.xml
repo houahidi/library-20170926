@@ -7,7 +7,6 @@
 	<packaging>pom</packaging>
 	<name>library-parent</name>
 	<description>Gestion de la bibliotheque</description>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -64,7 +63,6 @@
 		</site>
 	</distributionManagement>
 	
-
 	<modules>
 		<module>library-model</module>
 		<module>library-dao-api</module>
